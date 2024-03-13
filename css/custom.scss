@@ -12,7 +12,7 @@ body {
 
 h1 {
   color: $primary-color;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 40px;
 }
 
@@ -48,7 +48,13 @@ Loading section
 /*
 Header Section
 */
-.header-logo-wrapper { margin: 50px 0px 70px 0px; }
+.header-logo-wrapper { 
+	& img {
+		width: 200px;
+	}
+	width: 200px;
+	margin: 50px 0px 0px 0px; 
+}
 
 /*
 countdown timer section
@@ -78,7 +84,7 @@ countdown timer section
   	border: 0;
   	outline: none;
   	font-style: italic;
-  	font-weight: 700;
+  	font-weight: 400;
   	font-size: 14px;
   	color: $primary-color;
   	background-color: #ff6000;

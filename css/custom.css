@@ -1,21 +1,21 @@
 body {
   font-family: 'Erica One', sans-serif;
-  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
-  color: #ffffff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background: #4f4f4f;
 }
 
 h1 {
-  color: #000000;
-  font-weight: 700;
-  font-size: 40px;
+  color: #fbfbfb;
+  font-weight: 400;
+  font-size: 120px;
 }
 
 h3 {
-  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  color: #fbfbfb;
   font-style: italic;
   font-size: 25px;
 }
@@ -48,14 +48,17 @@ Loading section
 Header Section
 */
 .header-logo-wrapper {
-  margin: 50px 0px 70px 0px;
+  margin: 50px 0px 0px 0px;
+}
+.header-logo-wrapper img {
+  width: 200px;
 }
 
 /*
 countdown timer section
 */
 #counter {
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 #counter_wrapper {
@@ -83,6 +86,14 @@ countdown timer section
 
 .subscribe-form-wrapper {
   margin: 30px 0px 20px 0px;
+  display: grid;
+  justify-content: center;
+}
+
+.subscribe-form-wrapper p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #fcc2c2;
 }
 
 .subscribe-form-wrapper button {
@@ -91,7 +102,7 @@ countdown timer section
   border: 0;
   outline: none;
   font-style: italic;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 14px;
   color: #ffffff;
   background-color: #ff6000;
@@ -138,7 +149,7 @@ countdown timer section
 .social-media-wrapper a {
   margin-right: 20px;
   font-size: 25px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .social-media-wrapper a:last-child {
@@ -149,6 +160,7 @@ countdown timer section
 Footer and copyright section
 */
 .copyright {
+  font-family: 'Roboto', sans-serif;
   margin: 30px 0px 20px 0px;
   color: #ffffff;
 }
