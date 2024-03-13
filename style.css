@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Erica One', sans-serif;
     color: #333;
     background-color: #f0f8ff;
     margin: 0;
@@ -16,7 +16,7 @@ header {
 }
 
 header h1 {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Erica One', sans-serif;
     color: #0277bd;
     margin: 0;
 }
@@ -58,7 +58,7 @@ main {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Erica One', sans-serif;
 }
 
 #email-form button:hover {
