@@ -15,9 +15,21 @@
     <main>
         <section id="signup">
             <h2>Sign Up for Updates</h2>
-            <form id="email-form">
-                <input type="email" id="email" placeholder="Enter your email address" required>
-                <button type="submit">Notify Me!</button>
+            <!-- modify this form HTML and place wherever you want your form -->
+            <form
+              action="https://formspree.io/f/xeqyzngr"
+              method="POST"
+            >
+              <label>
+                Your email:
+                <input type="email" name="email">
+              </label>
+              <label>
+                Your message:
+                <textarea name="message"></textarea>
+              </label>
+              <!-- your other form fields go here -->
+              <button type="submit">Send</button>
             </form>
         </section>
     </main>
