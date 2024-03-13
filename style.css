@@ -1,73 +1,90 @@
-body {
-    font-family: 'Erica One', sans-serif;
-    color: #333;
-    background-color: #f0f8ff;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
+*{
+    font-family: 'Cabin', sans-serif;
 }
 
-header {
-    background-color: #b3e5fc;
-    padding: 20px 40px;
-    text-align: left;
+body{
+    overflow-x: hidden;
 }
 
-header h1 {
-    font-family: 'Erica One', sans-serif;
-    color: #0277bd;
-    margin: 0;
+
+.page-bg {
+    background-color: #f6f9fe;
 }
 
-header p {
-    margin: 5px 0 0;
-    font-weight: 400;
+.navbar-nav .nav-item .nav-link {
+    color: #1A129F;
+    font-weight: 300px;
 }
 
-main {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
+.nav-bar {
+    position: absolute;
+    top: 0;
+    z-index: 50;
 }
 
-#signup {
-    text-align: center;
-    margin: 20px;
+.text-color {
+    color: #ccc1e6;
 }
 
-#email-form {
-    margin-top: 20px;
+::placeholder {
+    color: #bdbfc2 !important;
 }
 
-#email-form input[type=email] {
-    padding: 10px;
-    margin-right: 10px;
-    border: none;
-    border-radius: 5px;
+.footer-text{
+    color: #585859;
+}
+
+.navbar-toggler:focus{
     outline: none;
 }
 
-#email-form button {
-    background-color: #29b6f6;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-family: 'Erica One', sans-serif;
-}
+@media screen and ( max-width: 547px) {
+    .form-mobile{
+        display: block;
+    }
 
-#email-form button:hover {
-    background-color: #0288d1;
-}
+    .input-mobile {
+        width: 97% !important;
+        margin: 0 auto;
+        text-align: center;
+        padding: 28px;
+        margin-bottom: 10px;
+    }
 
-footer {
-    background-color: #b3e5fc;
-    text-align: center;
-    padding: 10px;
-    font-size: 14px;
+    .mobile-btn{
+        width: 100%;
+        padding: 18px;
+    }
+
+
+    .mobile-height{
+        height: 125vh !important;
+    }
+
+    .navbar-nav {
+        padding-top: 20px;
+    }
+    .site-nav {
+        background-color: #ffffff;
+        box-shadow: 0 0 5px #00000015;
+        backdrop-filter: blur(3px);
+    }
+
+    .site-nav .nav-link {
+        color: #1A129F !important;
+        background-color: white;
+        padding: 10px 20px;
+        box-shadow: 0 0 5px #00000015;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .mb-nav{
+        width: 100%;
+    }
+
+
 }
